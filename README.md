@@ -24,6 +24,7 @@ pip install ansible-doc-legalese
 # From source
 git clone https://github.com/frozenfoxx/ansible-doc-legalese.git
 cd ansible-doc-legalese
+pip install -r requirements.txt
 pip install -e .
 
 # With YAML support for role parsing
@@ -124,7 +125,7 @@ BEFORE THE HONORABLE ANSIBLE ENGINE, PRESIDING
 # Clone and install dev dependencies
 git clone https://github.com/frozenfoxx/ansible-doc-legalese.git
 cd ansible-doc-legalese
-pip install -e ".[dev]"
+pip install -r requirements-dev.txt
 
 # Run tests
 pytest
