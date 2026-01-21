@@ -7,7 +7,8 @@ name = "ansible-doc-legalese"
 version = "0.1.0"
 description = "Transform Ansible documentation into legal court documents"
 readme = "README.md"
-license = {text = "Apache-2.0"}
+license = "Apache-2.0"
+license-files = ["LICENSE"]
 requires-python = ">=3.8"
 authors = [
     {name = "FrozenFOXX", email = "frozenfoxx@cultoffoxx.net"}
